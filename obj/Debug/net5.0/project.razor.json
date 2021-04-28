@@ -15644,6 +15644,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/Pages/Pogoda.cshtml",
+      "TargetPath": "Pages\\Pogoda.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/Pages/_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"

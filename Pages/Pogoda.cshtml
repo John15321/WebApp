@@ -1,0 +1,13 @@
+@page
+@model WebApplication1.Pages.Index1Model
+@{
+    ViewData["Title"] = "Pogoda w mieście";
+}
+<h1>@ViewData["Title"]</h1>
+<p>
+    <form id="form" onsubmit="return false;">
+        <label for="fname">Podaj nazwe miasta:</label>
+        <input type="text" id="userInput" />
+        <input style="position:absolute; top:60%; left:5%; width:40%;" type="submit" onclick="othername();" />
+    </form>
+</p>
