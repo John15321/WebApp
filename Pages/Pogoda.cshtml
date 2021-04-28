@@ -7,10 +7,12 @@
     ViewData["Title"] = "Pogoda w mieście";
     if (HttpMethods.IsPost(Request.Method))
     {
+        //font-family: 'Caveat', cursive;
         string cityName = Request.Form["cityName"];
         DownloadWeather weatherGetter = new DownloadWeather();
         DownloadWeather deserializedProduct = JsonConvert.DeserializeObject<DownloadWeather>(weatherGetter.getWeather(cityName));
         <text>
+
                         City:  @deserializedProduct.name <br/>
                         Latitude:  @deserializedProduct.coord.lat <br/>
                         ID:  @deserializedProduct.weather[0].id <br/>
