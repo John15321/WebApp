@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/WebApp.csproj": {}
+    "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/WebApp.csproj": {
+    "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/WebApp.csproj",
-        "packagesPath": "/home/john/.nuget/packages/",
-        "outputPath": "/home/john/Documents/Universitas/Semestris6/dotnet/WebApp/obj/",
+        "projectPath": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/john/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +43,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

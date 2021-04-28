@@ -1,13 +1,36 @@
 @page
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json
+@using WeatherApp
 @model WebApplication1.Pages.Index1Model
 @{
     ViewData["Title"] = "Pogoda w mieście";
+    if (HttpMethods.IsPost(Request.Method))
+    {
+        string cityName = Request.Form["cityName"];
+        DownloadWeather weatherGetter = new DownloadWeather();
+        DownloadWeather deserializedProduct = JsonConvert.DeserializeObject<DownloadWeather>(weatherGetter.getWeather(cityName));
+        <text>
+                        City:  @deserializedProduct.name <br/>
+                        Latitude:  @deserializedProduct.coord.lat <br/>
+                        ID:  @deserializedProduct.weather[0].id <br/>
+                        Temperature : @deserializedProduct.main.temp <br/>
+                        Feels like : @deserializedProduct.main.feels_like <br/>
+        </text>
+    }
 }
 <h1>@ViewData["Title"]</h1>
 <p>
-    <form id="form" onsubmit="return false;">
-        <label for="fname">Podaj nazwe miasta:</label>
-        <input type="text" id="userInput" />
-        <input style="position:absolute; top:60%; left:5%; width:40%;" type="submit" onclick="othername();" />
-    </form>
+     <form method="post" >
+        <fieldset>
+          <legend>Podaj nazwe miasta:</legend>
+          <div>
+            <label for="cityName">Nazwa miasta:</label>
+            <input type="text" name="cityName" value="" />
+          </div>
+            <label>&nbsp;</label>
+            <input type="submit" value="Submit" class="submit" />
+          </div>
+        </fieldset>
+      </form>
 </p>
