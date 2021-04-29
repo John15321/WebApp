@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj": {}
+    "f:\\Studia\\net java\\WEBAPP\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj": {
+    "f:\\Studia\\net java\\WEBAPP\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "f:\\Studia\\net java\\WEBAPP\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jan\\Documents\\Universitas\\Semestris6\\dotNetiJava\\WebApp\\obj\\",
+        "projectPath": "f:\\Studia\\net java\\WEBAPP\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\Marcin\\.nuget\\packages\\",
+        "outputPath": "f:\\Studia\\net java\\WEBAPP\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
